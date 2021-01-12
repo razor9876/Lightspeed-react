@@ -1,5 +1,4 @@
-import "./App.css";
-import React, { useEffect, useReducer } from "react";
+import React, { useReducer } from "react";
 import { useSocket } from "./context/SocketContext";
 import { useRTC } from "./context/RTCPeerContext";
 import VideoPlayer from "./components/VideoPlayer";
